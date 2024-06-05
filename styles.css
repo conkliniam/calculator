@@ -1,0 +1,29 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+.modifier {
+  background-color: rgb(0, 110, 255);
+}
+
+.number {
+  background-color: teal;
+}
+
+.operand {
+  background-color: rgb(195, 104, 0);
+}
+
+#display {
+  text-align: right;
+  background-color: #5f5f5f;
+}
+
+button {
+  color: white;
+}
