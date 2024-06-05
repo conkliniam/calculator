@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css" />
@@ -9,32 +10,35 @@
   <body>
     <div id="calculator">
       <div id="display">0</div>
-      <div id="leftButtons">
-        <div id="modifiers">
-          <button id="clear" class="modifier">AC</button>
-          <button id="negative" class="modifier">+/-</button>
-          <button id="percent" class="modifier">%</button>
-        </div>
-        <div id="numbers">
-          <button id="seven" class="number">7</button>
-          <button id="eight" class="number">8</button>
-          <button id="nine" class="number">9</button>
-          <button id="four" class="number">4</button>
-          <button id="five" class="number">5</button>
-          <button id="six" class="number">6</button>
-          <button id="one" class="number">1</button>
-          <button id="two" class="number">2</button>
-          <button id="three" class="number">3</button>
-          <button id="zero" class="number">0</button>
-          <button id="decimal" class="number">.</button>
-        </div>
+      <div id="modifiers">
+        <button id="clear" class="modifier">AC</button>
+        <button id="negative" class="modifier">+/-</button>
+        <button id="percent" class="modifier">%</button>
+        <button id="delete" class="modifier">DEL</button>
       </div>
-      <div id="operands">
-        <button id="divide" class="operand">/</button>
-        <button id="multiply" class="operand">*</button>
-        <button id="subtract" class="operand">-</button>
-        <button id="add" class="operand">+</button>
-        <button id="equals" class="operand">=</button>
+      <div id="buttons">
+        <div id="left-buttons">
+          <div id="numbers">
+            <button id="button7" class="number">7</button>
+            <button id="button8" class="number">8</button>
+            <button id="button9" class="number">9</button>
+            <button id="button4" class="number">4</button>
+            <button id="button5" class="number">5</button>
+            <button id="button6" class="number">6</button>
+            <button id="button1" class="number">1</button>
+            <button id="button2" class="number">2</button>
+            <button id="button3" class="number">3</button>
+            <button id="button0" class="number">0</button>
+            <button id="button." class="number">.</button>
+          </div>
+        </div>
+        <div id="operands">
+          <button id="divide" class="operand">/</button>
+          <button id="multiply" class="operand">*</button>
+          <button id="button-" class="operand">-</button>
+          <button id="add" class="operand">+</button>
+          <button id="equals" class="operand">=</button>
+        </div>
       </div>
     </div>
   </body>
